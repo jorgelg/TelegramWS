@@ -1,0 +1,31 @@
+﻿<div id="EnviarMensaje" class="tab-pane fade">
+
+    <div class="row">
+        <div class="form-group col-md-6">
+            <div class="col-md-2">
+                <label for="txtTelefono2">Nro Telf.:</label>
+            </div>
+            <div class="input-group col-md-6" id="txtTelefono2">
+                <span class="input-group-addon" id="prefijo2">+591</span>
+                <input type="number" placeholder="Telefono" name="nrotel" id="nrotel"
+                       class="form-control" aria-describedby="prefijo2" />
+            </div>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+    <div class="row">
+        <div class="form-group">
+            <textarea id="TextoMensaje" class="form-control" rows="5" cols="1"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <button type="button" id="btnEnviar" onclick="EnviarMensaje()" class="btn btn-info">Enviar</button>
+        <button type="reset" class="btn btn-info" onclick="Limpiar()">Limpiar</button>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function Limpiar() {
+        var texto = document.getElementById("TextoMensaje").value = "";
+    }
+</script>

@@ -1,0 +1,27 @@
+﻿<div id="EnviarArchivo" class="tab-pane fade">
+    @using (Html.BeginForm("EnviarImagen", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <div class="row">
+            <div class="form-group col-md-4">
+                <label for="txtTelDest" class="col-md-2">Nro. Telf.:</label>
+                <div class="input-group" id="txtTelDest">
+                    <span class="input-group-addon" id="prefix">+591</span>
+                    <input type="number" placeholder="Telefono" id="nroteldest" name="nroteldest" class="form-control" aria-describedby="prefix" />
+                </div>
+            </div>
+            <div class="col-md-6"></div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row">
+            <div class="form-group">
+                <label class="btn btn-info btn-file">
+                    Seleccionar Archivo <input type="file" class="hidden" name="file" id="file" />
+                </label>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-info">Enviar</button>
+            </div>
+
+        </div>
+    }
+</div>

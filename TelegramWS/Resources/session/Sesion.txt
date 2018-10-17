@@ -1,0 +1,62 @@
+{
+  "SessionUserId": "session",
+  "ServerAddress": "149.154.175.50",
+  "Port": 443,
+  "AuthKey": {
+    "Data": "NbkxR1Tk2WfakiVVU0KGcRjh9D3JfF6oCiVv3aNutB5dcsRIUe49d6VJzYQ3CcrKcUwbppHa9Qh8Fd01ZvvsCrKkKsLmkbH598mvHVqHtpIw50njkNBucrIFVPcY98Bl79fAMRsOnGQA79Mj06BlbWjbXsBpwGXMYXs9uBF+7Iyx7mSozb0v/IcHc5D009xLwGE5u3qiUOcfM1XGc+223AYqVC+Zu6pLo/b5S8HWzsD+aarSah2HbRRbMBBwJkae8UTRoN/9RHK9yUZJ8AYnGdUA9jW7yJglOTPy104FC01t43+MNEA4MsOyGW6w8Df7HaxkMPMY2Oidv16mVqykwA==",
+    "Id": 18088982224264462523
+  },
+  "Id": 9028025423491095723,
+  "Sequence": 47,
+  "Salt": 8352319446356072559,
+  "TimeOffset": 0,
+  "LastMessageId": 6544021533051746296,
+  "SessionExpires": 2147483647,
+  "TLUser": {
+    "Constructor": 773059779,
+    "Flags": 1151,
+    "Self": true,
+    "Contact": false,
+    "MutualContact": false,
+    "Deleted": false,
+    "Bot": false,
+    "BotChatHistory": false,
+    "BotNochats": false,
+    "Verified": false,
+    "Restricted": false,
+    "Min": false,
+    "BotInlineGeo": false,
+    "Id": 268439607,
+    "AccessHash": 6186881733857725588,
+    "FirstName": "Jorge",
+    "LastName": "Gutierrez",
+    "Username": "JGutierrez",
+    "Phone": "59176820350",
+    "Photo": {
+      "Constructor": -715532088,
+      "PhotoId": 1152939333472331690,
+      "PhotoSmall": {
+        "Constructor": 1406570614,
+        "DcId": 1,
+        "VolumeId": 803735810,
+        "LocalId": 129974,
+        "Secret": 2374826989136403500
+      },
+      "PhotoBig": {
+        "Constructor": 1406570614,
+        "DcId": 1,
+        "VolumeId": 803735810,
+        "LocalId": 129976,
+        "Secret": 4117572301478288286
+      }
+    },
+    "Status": {
+      "Constructor": 9203775,
+      "WasOnline": 1502374340
+    },
+    "BotInfoVersion": null,
+    "RestrictionReason": null,
+    "BotInlinePlaceholder": null,
+    "LangCode": null
+  }
+}
